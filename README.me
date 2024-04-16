@@ -1,0 +1,48 @@
+# MERN Application
+
+This is a simple application that fetches data from a MongoDB database and displays it in a chart on a web page using Google Charts.
+
+## Prerequisites
+
+Before you begin, make sure -
+- Node.js installed on your local machine
+- MongoDB installed and running locally
+- Basic understanding of JavaScript, Node.js, and MongoDB
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone repository
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd mern-application
+```
+
+3. Install dependencies for the server:
+
+```bash
+npm install
+```
+
+## Configuration
+
+1. Ensure MongoDB is running locally, or install mongodb compass and import the json file sample-data.json in the collection.
+
+2. Configure MongoDB connection:
+   - Open `server.js` file.
+   - Modify the MongoDB connection URL (`'mongodb://localhost:27017/mern-application-db'`) to match your MongoDB setup.
+
+## Usage
+
+1. Start the server:
+
+```bash
+node server.js
+```
+
+2. Access the application in your web browser at `http://localhost:3000/`. You should see a chart displaying machine status data fetched from the MongoDB database.
